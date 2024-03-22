@@ -1,13 +1,13 @@
-# Fronted Starter Template
+# Tool Vault Fronted
 
 ### Description:
 
-The project is a TypeScript-based frontend template for React projects, built on
-top of Vite. It incorporates essential features such as interceptors, routing
-using React Router v6, schema validation with Zod, and utilizes Tailwind CSS for
-styling with Shadcn for additional enhancements. This template aims to provide a
-robust starting point for React developers, streamlining the setup process and
-offering a foundation for scalable and maintainable web applications.
+The project is a TypeScript-based frontend for Tool Vault, built on top of Vite.
+It incorporates essential features such as interceptors, routing using React
+Router v6, schema validation with Zod, and utilizes Tailwind CSS for styling
+with Shadcn for additional enhancements. This template aims to provide a robust
+starting point for React developers, streamlining the setup process and offering
+a foundation for scalable and maintainable web applications.
 
 ### Why it was created:
 
@@ -48,7 +48,11 @@ nature.
    utility functions or UI components, to augment the functionality of Tailwind
    CSS.
 
-8. Docker Integration: This project includes Docker integration, which enables hot reloading and allows for seamless development and testing in a containerized environment. With Docker, you can easily set up and run the project in a consistent and isolated environment, ensuring that your application behaves consistently across different machines and platforms.
+8. Docker Integration: This project includes Docker integration, which enables
+   hot reloading and allows for seamless development and testing in a
+   containerized environment. With Docker, you can easily set up and run the
+   project in a consistent and isolated environment, ensuring that your
+   application behaves consistently across different machines and platforms.
 
 ## Technologies Used
 
@@ -72,12 +76,12 @@ Follow these steps to set up and run the project:
 
 - Clone the repository.
 - If not using Docker:
-   - Install dependencies using `npm install`.
-   - Run the development server using `npm run dev`.
+  - Install dependencies using `npm install`.
+  - Run the development server using `npm run dev`.
 - If using Docker:
-   - Run the development server using `docker-compose up`.
+  - Run the development server using `docker-compose up`.
 - Checkout any repo according to your required configuration.
-   - e.g. `git checkout setup-without-docker`
+  - e.g. `git checkout setup-without-docker`
 
 ## Usage
 
@@ -100,7 +104,6 @@ please follow these guidelines:
 - Suggest new features by opening an issue
 - Follow coding standards
 - Submit pull requests with clear descriptions
-
 
 ```## Pull Request Template
 
